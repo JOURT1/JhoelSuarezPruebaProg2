@@ -11,10 +11,10 @@ namespace JhoelSuarezPruebaProg2.Interfaces
     {
         bool CrearUsuario(JSuarezUsuario usuario);
         bool ActualizarUsuario(JSuarezUsuario usuario);
-        bool EliminarUsuario(int Telefono);
+        bool EliminarUsuario(string Telefono);
         IEnumerable<JSuarezUsuario> DevulveListadoUsuarios(); //o List al inicio para que sea lista
         //Ienumerable es para una lista mas compleja
-        JSuarezUsuario DevulveInfoUsuario(int Telefono);
+        JSuarezUsuario DevulveInfoUsuario(string Telefono);
 
     }
 }

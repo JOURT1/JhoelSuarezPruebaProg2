@@ -42,7 +42,7 @@ namespace JhoelSuarezPruebaProg2.Repositories
             }
         }
 
-        public JSuarezUsuario DevulveInfoUsuario(int Telefono)
+        public JSuarezUsuario DevulveInfoUsuario(string Telefono)
         {
             JSuarezUsuario jSuarezUsuario = new JSuarezUsuario();
             try
@@ -66,7 +66,7 @@ namespace JhoelSuarezPruebaProg2.Repositories
             throw new NotImplementedException();
         }
 
-        public bool EliminarUsuario(int Telefono)
+        public bool EliminarUsuario(string Telefono)
         {
             throw new NotImplementedException();
         }

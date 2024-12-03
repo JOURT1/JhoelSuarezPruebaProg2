@@ -8,7 +8,7 @@ namespace JhoelSuarezPruebaProg2.Models
 {
     public class JSuarezUsuario
     {
-        public int Telefono { get; set; }
+        public string Telefono { get; set; }
         public string Nombre { get; set; }
     }
 }

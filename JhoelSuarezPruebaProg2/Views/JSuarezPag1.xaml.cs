@@ -20,7 +20,7 @@ public partial class JSuarezPag1 : ContentPage
 
         _jSuarezUsuarioRepository = new JSuarezUsuarioRepository();
 
-        usuario = _jSuarezUsuarioRepository.DevulveInfoUsuario(1);
+        usuario = _jSuarezUsuarioRepository.DevulveInfoUsuario("");
         BindingContext = usuario;
     }
 
@@ -28,7 +28,7 @@ public partial class JSuarezPag1 : ContentPage
     {
         JSuarezUsuario usuario = new JSuarezUsuario
         {
-            Telefono = Int32.Parse(JSuarez_editor_Telefono.Text),
+            Telefono = JSuarez_editor_Telefono.Text,
             Nombre = JSuarez_editor_Nombre.Text
         };
         bool guardar = _jSuarezUsuarioRepository.CrearUsuario(usuario);
