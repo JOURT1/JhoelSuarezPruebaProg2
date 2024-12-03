@@ -42,5 +42,6 @@ public partial class JSuarezPag1 : ContentPage
             await DisplayAlert("Alerta", "Error al guardar", "OK");
         }
         Navigation.PushAsync(new JSuarezPag1());
+
     }
 }
