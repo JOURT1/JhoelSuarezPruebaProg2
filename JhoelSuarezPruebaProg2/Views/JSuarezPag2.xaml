@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JhoelSuarezPruebaProg2.Views.JSuarezPag2"
-             Title="JSuarezPag2">
+             Title="JSuarezPag2"
+             Background="Black">
     
     <Grid RowSpacing="3"
           ColumnSpacing="3">
@@ -34,7 +35,7 @@
                Text="Suárez"
                HorizontalOptions="Center"
                VerticalOptions="Center"
-               />
+               Style="{StaticResource JSuarezLabelStyle}"/>
 
         <BoxView Grid.Row="1"
                  Grid.Column="1"
@@ -44,6 +45,6 @@
                Text="Santander"
                HorizontalOptions="Center"
                VerticalOptions="Center"
-               />
+               Style="{StaticResource JSuarezLabelStyle}"/>
     </Grid>
 </ContentPage>

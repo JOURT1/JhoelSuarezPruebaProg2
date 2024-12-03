@@ -433,4 +433,9 @@
             Value="AntiqueWhite" />
     </Style>
 
+    <Style x:Key="JSuarezLabelStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="Red" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="FontSize" Value="15" />
+    </Style>
 </ResourceDictionary>
